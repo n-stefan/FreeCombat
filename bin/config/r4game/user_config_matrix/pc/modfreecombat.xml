@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="FreeCombat" displayName="Mods.mods_freecombat">
+		<VisibleVars>
+			<Var id="EnemyStrafing" displayName="mod_freecombat_enemystrafing" displayType="OPTIONS" tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="mod_freecombat_enemystrafingnorun">
+						<Entry varId="EnemyStrafing" value="0"/>
+					</Option>
+					<Option id="1" displayName="mod_freecombat_enemystrafingrun">
+						<Entry varId="EnemyStrafing" value="1"/>
+					</Option>
+					<Option id="2" displayName="mod_freecombat_off">
+						<Entry varId="EnemyStrafing" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="Jumping" displayName="mod_freecombat_jumping" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="Looting" displayName="mod_freecombat_looting" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="SetNpcLevelVsPlayerLevel" displayName="mod_freecombat_setnpclevelvsplayerlevel" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="RandomNpcLevelVsPlayerLevel" displayName="mod_freecombat_randomnpclevelvsplayerlevel" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="NpcLevelVsPlayerLevel" displayName="mod_freecombat_npclevelvsplayerlevel" displayType="SLIDER;-30;30;60" tags="customDisplayName"/>
+			<Var id="ChanceOfDealingAlteredDamage" displayName="mod_freecombat_chanceofdealingaltereddamage" displayType="SLIDER;0;100;100" tags="customDisplayName"/>
+			<Var id="DamageDealtMultiplier" displayName="mod_freecombat_damagedealtmultiplier" displayType="SLIDER;0.5;2;150" tags="customDisplayName"/>
+			<Var id="ChanceOfTakingAlteredDamage" displayName="mod_freecombat_chanceoftakingaltereddamage" displayType="SLIDER;0;100;100" tags="customDisplayName"/>
+			<Var id="DamageTakenMultiplier" displayName="mod_freecombat_damagetakenmultiplier" displayType="SLIDER;0.5;2;150" tags="customDisplayName"/>
+			<Var id="ChanceOfWeaponDamage" displayName="mod_freecombat_chanceofweapondamage" displayType="SLIDER;0;100;100" tags="customDisplayName"/>
+			<Var id="ChanceOfArmorDamage" displayName="mod_freecombat_chanceofarmordamage" displayType="SLIDER;0;100;100" tags="customDisplayName"/>
+			<Var id="CombatAnimSpeedMultiplier" displayName="mod_freecombat_combatanimspeedmultiplier" displayType="SLIDER;1;2;100" tags="customDisplayName"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>
